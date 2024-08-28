@@ -1,0 +1,776 @@
+{
+  "users": [
+    {
+      "id": "9a3f",
+      "username": "samyakbendre",
+      "email": "samyakbendre@gmail.com",
+      "password": "samyak@123"
+    },
+    {
+      "id": "a394",
+      "username": "sam",
+      "email": "sam@gmail.com",
+      "password": "sam@123"
+    }
+  ],
+  "locations": [
+    {
+      "id": "0a9b",
+      "city": "Berlin",
+      "weatherData": {
+        "daily": [
+          {
+            "date": "2024-08-20",
+            "temperature": 23
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 25
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 24
+          }
+        ],
+        "weekly": [
+          {
+            "date": "Week 1",
+            "temperature": 22
+          },
+          {
+            "date": "Week 2",
+            "temperature": 24
+          },
+          {
+            "date": "Week 3",
+            "temperature": 23
+          }
+        ],
+        "monthly": [
+          {
+            "date": "August",
+            "temperature": 24
+          },
+          {
+            "date": "July",
+            "temperature": 22
+          },
+          {
+            "date": "June",
+            "temperature": 26
+          }
+        ]
+      }
+    },
+    {
+      "id": "4b28",
+      "city": "Mohali",
+      "weatherData": {
+        "daily": [
+          {
+            "date": "2024-08-20",
+            "temperature": 32
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 34
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 33
+          }
+        ],
+        "weekly": [
+          {
+            "date": "Week 1",
+            "temperature": 31
+          },
+          {
+            "date": "Week 2",
+            "temperature": 33
+          },
+          {
+            "date": "Week 3",
+            "temperature": 32
+          }
+        ],
+        "monthly": [
+          {
+            "date": "August",
+            "temperature": 33
+          },
+          {
+            "date": "July",
+            "temperature": 31
+          },
+          {
+            "date": "June",
+            "temperature": 34
+          }
+        ]
+      }
+    },
+    {
+      "id": "e222",
+      "city": "Bangalore",
+      "weatherData": {
+        "daily": [
+          {
+            "date": "2024-08-20",
+            "temperature": 23
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 25
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 24
+          }
+        ],
+        "weekly": [
+          {
+            "date": "Week 1",
+            "temperature": 22
+          },
+          {
+            "date": "Week 2",
+            "temperature": 24
+          },
+          {
+            "date": "Week 3",
+            "temperature": 23
+          }
+        ],
+        "monthly": [
+          {
+            "date": "August",
+            "temperature": 24
+          },
+          {
+            "date": "July",
+            "temperature": 22
+          },
+          {
+            "date": "June",
+            "temperature": 26
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1b2",
+      "city": "New York",
+      "weatherData": {
+        "daily": [
+          {
+            "date": "2024-08-20",
+            "temperature": 29
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 31
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 30
+          }
+        ],
+        "weekly": [
+          {
+            "date": "Week 1",
+            "temperature": 28
+          },
+          {
+            "date": "Week 2",
+            "temperature": 30
+          },
+          {
+            "date": "Week 3",
+            "temperature": 29
+          }
+        ],
+        "monthly": [
+          {
+            "date": "August",
+            "temperature": 30
+          },
+          {
+            "date": "July",
+            "temperature": 29
+          },
+          {
+            "date": "June",
+            "temperature": 31
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2c3",
+      "city": "Tokyo",
+      "weatherData": {
+        "daily": [
+          {
+            "date": "2024-08-20",
+            "temperature": 27
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 29
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 28
+          }
+        ],
+        "weekly": [
+          {
+            "date": "Week 1",
+            "temperature": 26
+          },
+          {
+            "date": "Week 2",
+            "temperature": 28
+          },
+          {
+            "date": "Week 3",
+            "temperature": 27
+          }
+        ],
+        "monthly": [
+          {
+            "date": "August",
+            "temperature": 28
+          },
+          {
+            "date": "July",
+            "temperature": 27
+          },
+          {
+            "date": "June",
+            "temperature": 29
+          }
+        ]
+      }
+    },
+    {
+      "id": "c3d4",
+      "city": "Sydney",
+      "weatherData": {
+        "daily": [
+          {
+            "date": "2024-08-20",
+            "temperature": 21
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 23
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 22
+          }
+        ],
+        "weekly": [
+          {
+            "date": "Week 1",
+            "temperature": 20
+          },
+          {
+            "date": "Week 2",
+            "temperature": 22
+          },
+          {
+            "date": "Week 3",
+            "temperature": 21
+          }
+        ],
+        "monthly": [
+          {
+            "date": "August",
+            "temperature": 22
+          },
+          {
+            "date": "July",
+            "temperature": 21
+          },
+          {
+            "date": "June",
+            "temperature": 23
+          }
+        ]
+      }
+    },
+    {
+      "id": "dg1m",
+      "city": "Berlin",
+      "weatherData": {
+        "daily": [
+          {
+            "date": "2024-08-20",
+            "temperature": 25
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 27
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 26
+          }
+        ],
+        "weekly": [
+          {
+            "date": "Week 1",
+            "temperature": 24
+          },
+          {
+            "date": "Week 2",
+            "temperature": 26
+          },
+          {
+            "date": "Week 3",
+            "temperature": 25
+          }
+        ],
+        "monthly": [
+          {
+            "date": "August",
+            "temperature": 26
+          },
+          {
+            "date": "July",
+            "temperature": 24
+          },
+          {
+            "date": "June",
+            "temperature": 27
+          }
+        ]
+      }
+    },
+    {
+      "id": "qn4z",
+      "city": "Los Santos",
+      "weatherData": {
+        "daily": [
+          {
+            "date": "2024-08-20",
+            "temperature": 25
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 27
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 26
+          }
+        ],
+        "weekly": [
+          {
+            "date": "Week 1",
+            "temperature": 24
+          },
+          {
+            "date": "Week 2",
+            "temperature": 26
+          },
+          {
+            "date": "Week 3",
+            "temperature": 25
+          }
+        ],
+        "monthly": [
+          {
+            "date": "August",
+            "temperature": 26
+          },
+          {
+            "date": "July",
+            "temperature": 24
+          },
+          {
+            "date": "June",
+            "temperature": 27
+          }
+        ]
+      }
+    },
+    {
+      "id": "j2op",
+      "city": "Bārāmati",
+      "weatherData": {
+        "daily": [
+          {
+            "date": "2024-08-20",
+            "temperature": 25
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 27
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 26
+          }
+        ],
+        "weekly": [
+          {
+            "date": "Week 1",
+            "temperature": 24
+          },
+          {
+            "date": "Week 2",
+            "temperature": 26
+          },
+          {
+            "date": "Week 3",
+            "temperature": 25
+          }
+        ],
+        "monthly": [
+          {
+            "date": "August",
+            "temperature": 26
+          },
+          {
+            "date": "July",
+            "temperature": 24
+          },
+          {
+            "date": "June",
+            "temperature": 27
+          }
+        ]
+      }
+    },
+    {
+      "id": "xpqt",
+      "city": "Bārāmati",
+      "weatherData": {
+        "daily": [
+          {
+            "date": "2024-08-20",
+            "temperature": 25
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 27
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 26
+          }
+        ],
+        "weekly": [
+          {
+            "date": "Week 1",
+            "temperature": 24
+          },
+          {
+            "date": "Week 2",
+            "temperature": 26
+          },
+          {
+            "date": "Week 3",
+            "temperature": 25
+          }
+        ],
+        "monthly": [
+          {
+            "date": "August",
+            "temperature": 26
+          },
+          {
+            "date": "July",
+            "temperature": 24
+          },
+          {
+            "date": "June",
+            "temperature": 27
+          }
+        ]
+      }
+    },
+    {
+      "id": "hvzn",
+      "city": "Bārāmati",
+      "weatherData": {
+        "daily": [
+          {
+            "date": "2024-08-20",
+            "temperature": 25
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 27
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 26
+          }
+        ],
+        "weekly": [
+          {
+            "date": "Week 1",
+            "temperature": 24
+          },
+          {
+            "date": "Week 2",
+            "temperature": 26
+          },
+          {
+            "date": "Week 3",
+            "temperature": 25
+          }
+        ],
+        "monthly": [
+          {
+            "date": "August",
+            "temperature": 26
+          },
+          {
+            "date": "July",
+            "temperature": 24
+          },
+          {
+            "date": "June",
+            "temperature": 27
+          }
+        ]
+      }
+    },
+    {
+      "id": "4ihu",
+      "city": "Ahmedabad",
+      "weatherData": {
+        "daily": [
+          {
+            "date": "2024-08-20",
+            "temperature": 25
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 27
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 26
+          }
+        ],
+        "weekly": [
+          {
+            "date": "Week 1",
+            "temperature": 24
+          },
+          {
+            "date": "Week 2",
+            "temperature": 26
+          },
+          {
+            "date": "Week 3",
+            "temperature": 25
+          }
+        ],
+        "monthly": [
+          {
+            "date": "August",
+            "temperature": 26
+          },
+          {
+            "date": "July",
+            "temperature": 24
+          },
+          {
+            "date": "June",
+            "temperature": 27
+          }
+        ]
+      }
+    },
+    {
+      "id": "861x",
+      "city": "Nagpur",
+      "weatherData": {
+        "daily": [
+          {
+            "date": "2024-08-20",
+            "temperature": 25
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 27
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 26
+          }
+        ],
+        "weekly": [
+          {
+            "date": "Week 1",
+            "temperature": 24
+          },
+          {
+            "date": "Week 2",
+            "temperature": 26
+          },
+          {
+            "date": "Week 3",
+            "temperature": 25
+          }
+        ],
+        "monthly": [
+          {
+            "date": "August",
+            "temperature": 26
+          },
+          {
+            "date": "July",
+            "temperature": 24
+          },
+          {
+            "date": "June",
+            "temperature": 27
+          }
+        ]
+      }
+    },
+    {
+      "id": "8bd1",
+      "city": "Bārāmati",
+      "weatherData": {
+        "daily": [
+          {
+            "date": "2024-08-20",
+            "temperature": 25
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 27
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 26
+          }
+        ],
+        "weekly": [
+          {
+            "date": "Week 1",
+            "temperature": 24
+          },
+          {
+            "date": "Week 2",
+            "temperature": 26
+          },
+          {
+            "date": "Week 3",
+            "temperature": 25
+          }
+        ],
+        "monthly": [
+          {
+            "date": "August",
+            "temperature": 26
+          },
+          {
+            "date": "July",
+            "temperature": 24
+          },
+          {
+            "date": "June",
+            "temperature": 27
+          }
+        ]
+      }
+    },
+    {
+      "id": "vrge",
+      "city": "Hinganghāt",
+      "weatherData": {
+        "daily": [
+          {
+            "date": "2024-08-20",
+            "temperature": 25
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 27
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 26
+          }
+        ],
+        "weekly": [
+          {
+            "date": "Week 1",
+            "temperature": 24
+          },
+          {
+            "date": "Week 2",
+            "temperature": 26
+          },
+          {
+            "date": "Week 3",
+            "temperature": 25
+          }
+        ],
+        "monthly": [
+          {
+            "date": "August",
+            "temperature": 26
+          },
+          {
+            "date": "July",
+            "temperature": 24
+          },
+          {
+            "date": "June",
+            "temperature": 27
+          }
+        ]
+      }
+    }
+  ],
+  "weatherHistory": [
+    {
+      "id": "h1",
+      "locationId": "0a9b",
+      "date": "2024-08-20",
+      "temperature": 23
+    },
+    {
+      "id": "h2",
+      "locationId": "4b28",
+      "date": "2024-08-21",
+      "temperature": 34
+    },
+    {
+      "id": "h3",
+      "locationId": "e222",
+      "date": "2024-08-22",
+      "temperature": 24
+    },
+    {
+      "id": "h4",
+      "locationId": "a1b2",
+      "date": "2024-08-23",
+      "temperature": 30
+    },
+    {
+      "id": "h5",
+      "locationId": "b2c3",
+      "date": "2024-08-24",
+      "temperature": 28
+    },
+    {
+      "id": "h6",
+      "locationId": "c3d4",
+      "date": "2024-08-25",
+      "temperature": 22
+    }
+  ]
+}
