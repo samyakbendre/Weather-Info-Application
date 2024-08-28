@@ -17,7 +17,7 @@
       },
       lineColor: {
         type: String,
-        default: '#f87979', // Default color if not provided
+        default: '#f87979',
       },
     },
     setup(props) {

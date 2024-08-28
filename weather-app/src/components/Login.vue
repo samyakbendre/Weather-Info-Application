@@ -130,7 +130,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: var(--color-background-soft); */
   }
   
   .login-card {
@@ -150,7 +149,6 @@
     color: var(--color-heading);
   }
   
-  /* Form styling */
   .login-form .form-group {
     margin-bottom: 1.5rem;
   }
