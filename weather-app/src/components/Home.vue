@@ -88,13 +88,13 @@ export default {
       savedLocations: [],
       selectedLocation: null,
       locationWeatherData: [],
-      chart: null, 
+      chart: null,
       dailyData: [],
-      weeklyData: [], 
-      monthlyData: [], 
+      weeklyData: [],
+      monthlyData: [],
       error: '',
       showButtons: false,
-      currentCity : 'Los Santos',
+      currentCity: 'Los Santos',
     };
   },
   computed: {
@@ -159,9 +159,6 @@ export default {
         navigator.geolocation.getCurrentPosition(
           async (position) => {
             const { latitude, longitude } = position.coords;
-            console.log('Latitude:', latitude);
-            console.log('Longitude:', longitude);
-
             const apiKey = '5bc67e503602126f4d306834cdab5c42';
 
             try {
@@ -289,14 +286,14 @@ export default {
         console.error('Error fetching weather data:', error);
         this.error = 'Error fetching weather data. Please try again later or check the city name.';
         setTimeout(() => {
-          this.error = ''; 
+          this.error = '';
         }, 5000);
       }
     },
     processForecastData() {
       if (!this.forecast) return;
       const dailyForecasts = {};
-      this.hourlyForecast = []; 
+      this.hourlyForecast = [];
 
       this.forecast.list.forEach(entry => {
         const date = new Date(entry.dt * 1000).toLocaleDateString('en-GB');
@@ -401,13 +398,13 @@ export default {
     processLocationWeatherData() {
       if (!this.selectedLocation) return;
 
-      this.dailyData = [15, 18, 22, 21, 20]; 
+      this.dailyData = [15, 18, 22, 21, 20];
       const dailyLabels = ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5'];
 
-      this.weeklyData = [17, 19, 21, 20, 22]; 
+      this.weeklyData = [17, 19, 21, 20, 22];
       const weeklyLabels = ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5'];
 
-      this.monthlyData = [20, 22, 21]; 
+      this.monthlyData = [20, 22, 21];
       const monthlyLabels = ['Month 1', 'Month 2', 'Month 3'];
 
       this.createChart(this.dailyData, dailyLabels, 'Daily Temperature');
@@ -809,7 +806,7 @@ canvas {
 .save-location-button:hover,
 .view-saved-locations-button:hover,
 .weather-history-button:hover,
-.logout-button:hover{
+.logout-button:hover {
   background-color: #000000;
   border-color: #ffffff;
   color: #ffffff;
